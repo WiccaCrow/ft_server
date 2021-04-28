@@ -1,0 +1,4 @@
+CREATE DATABASE base_mdulcie;
+GRANT ALL PRIVILEGES ON base_mdulcie.* TO 'root'@'localhost' WITH GRANT OPTION;
+update mysql.user set plugin='mysql_native_password' WHERE user='root';
+FLUSH PRIVILEGES;
