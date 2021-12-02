@@ -1,2 +1,10 @@
 # ft_server
-Dockerfile
+
+Маленький веб-сервер.
+
+    Dockerfile
+    Nginx
+    WordPress
+    phpMyAdmin
+    MySQL
+    протокол SSL
